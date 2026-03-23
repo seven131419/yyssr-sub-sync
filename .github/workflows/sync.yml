@@ -1,2 +1,48 @@
+name: sync-clash
 
-# touch
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch source
+        run: |
+          curl -L "https://sub-bgexcvnexg.cn-hongkong.fcapp.run/sub/3723e0a71aff9251/clash" -o src.yaml
+
+      - name: Patch keeping original structure
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          s = Path('src.yaml').read_text(encoding='utf-8', errors='ignore').replace('\r\n','\n')
+          for old in [
+              '- "DOMAIN-SUFFIX,link00.yyssr.org,🎬 Emby"\n',
+              '- "DOMAIN,link00.yyssr.org,🎬 Emby"\n',
+              '- "DOMAIN,link00.yyssr.org,☁️ Cloudflare IP"\n',
+              '- "DOMAIN,link00.yyssr.org,🎯 Direct"\n',
+          ]:
+              s = s.replace(old, '')
+          if 'rules:\n' in s and 'DOMAIN,link00.yyssr.org,🎯 Direct' not in s:
+              s = s.replace('rules:\n', 'rules:\n- "DOMAIN,link00.yyssr.org,🎯 Direct"\n', 1)
+          Path('ios-clash.yaml').write_text(s, encoding='utf-8')
+          PY
+
+      - name: Commit if changed
+        run: |
+          if ! git status --porcelain -- ios-clash.yaml | grep -q .; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ios-clash.yaml
+          git commit -m "chore: sync clash and keep link00 direct"
+          git push
