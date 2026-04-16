@@ -32,23 +32,23 @@ dns:
 proxies:
 - name: "\U0001F1ED\U0001F1F0 香港 01"
   type: anytls
-  server: qxx3e4.yytls.top
+  server: seovk5.yytls.top
   port: 27002
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: qxx3e4.yytls.top
+  sni: seovk5.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
-- name: "\U0001F1ED\U0001F1F0 香港 02 -4x"
+- name: "\U0001F1ED\U0001F1F0 香港 02"
   type: tuic
-  server: zvapay.yydzx.xyz
-  port: 12053
+  server: sj7try.yydzx.xyz
+  port: 12883
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: zvapay.yydzx.xyz
+  sni: sj7try.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -56,23 +56,23 @@ proxies:
   - h3
 - name: "\U0001F1FA\U0001F1F8 美国 01"
   type: anytls
-  server: pfbz93.yytls.top
+  server: tyqdt9.yytls.top
   port: 27001
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: pfbz93.yytls.top
+  sni: tyqdt9.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
-- name: "\U0001F1FA\U0001F1F8 美国 02 -4x"
+- name: "\U0001F1FA\U0001F1F8 美国 02"
   type: tuic
-  server: t48swc.yydzx.xyz
-  port: 11991
+  server: jbzggt.yydzx.xyz
+  port: 11881
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: t48swc.yydzx.xyz
+  sni: jbzggt.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -80,23 +80,23 @@ proxies:
   - h3
 - name: "\U0001F1F8\U0001F1EC 新加坡 01"
   type: anytls
-  server: dl2fmo.yytls.top
+  server: wz9clp.yytls.top
   port: 27003
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: dl2fmo.yytls.top
+  sni: wz9clp.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
-- name: "\U0001F1F8\U0001F1EC 新加坡 02 -4x"
+- name: "\U0001F1F8\U0001F1EC 新加坡 02"
   type: tuic
-  server: tw00i2.yydzx.xyz
-  port: 13732
+  server: sas3gz.yydzx.xyz
+  port: 13464
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: tw00i2.yydzx.xyz
+  sni: sas3gz.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -104,23 +104,23 @@ proxies:
   - h3
 - name: "\U0001F1EF\U0001F1F5 日本 01"
   type: anytls
-  server: rq2ued.yytls.top
+  server: uq3qmd.yytls.top
   port: 27004
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: rq2ued.yytls.top
+  sni: uq3qmd.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
-- name: "\U0001F1EF\U0001F1F5 日本 02 -4x"
+- name: "\U0001F1EF\U0001F1F5 日本 02"
   type: tuic
-  server: w9w2qf.yydzx.xyz
-  port: 14882
+  server: c3ohxs.yydzx.xyz
+  port: 14300
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: w9w2qf.yydzx.xyz
+  sni: c3ohxs.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -128,23 +128,23 @@ proxies:
   - h3
 - name: "\U0001F1F9\U0001F1FC 台湾 01"
   type: anytls
-  server: hmtb4z.yytls.top
+  server: yv54ez.yytls.top
   port: 27005
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: hmtb4z.yytls.top
+  sni: yv54ez.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
-- name: "\U0001F1F9\U0001F1FC 台湾 02 -4x"
+- name: "\U0001F1F9\U0001F1FC 台湾 02"
   type: tuic
-  server: qhz8vt.yydzx.xyz
-  port: 15618
+  server: y45tbb.yydzx.xyz
+  port: 15979
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: qhz8vt.yydzx.xyz
+  sni: y45tbb.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -152,23 +152,23 @@ proxies:
   - h3
 - name: "\U0001F1F0\U0001F1F7 韩国 01"
   type: anytls
-  server: mnpu5k.yytls.top
+  server: rypygk.yytls.top
   port: 27008
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: mnpu5k.yytls.top
+  sni: rypygk.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
-- name: "\U0001F1F0\U0001F1F7 韩国 02 -4x"
+- name: "\U0001F1F0\U0001F1F7 韩国 02"
   type: tuic
-  server: ypf4bk.yydzx.xyz
-  port: 16800
+  server: zo6vpq.yydzx.xyz
+  port: 16689
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: ypf4bk.yydzx.xyz
+  sni: zo6vpq.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -176,23 +176,23 @@ proxies:
   - h3
 - name: "\U0001F1F2\U0001F1F4 澳门 01"
   type: anytls
-  server: rewppz.yytls.top
+  server: pmai4w.yytls.top
   port: 27013
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: rewppz.yytls.top
+  sni: pmai4w.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
-- name: "\U0001F1F2\U0001F1F4 澳门 02 -4x"
+- name: "\U0001F1F2\U0001F1F4 澳门 02"
   type: tuic
-  server: qulu66.yydzx.xyz
-  port: 17044
+  server: j7rltl.yydzx.xyz
+  port: 17418
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: qulu66.yydzx.xyz
+  sni: j7rltl.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -200,311 +200,311 @@ proxies:
   - h3
 - name: "\U0001F1E8\U0001F1E6 加拿大 01"
   type: anytls
-  server: j64oux.yytls.top
+  server: lstlo0.yytls.top
   port: 27009
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: j64oux.yytls.top
+  sni: lstlo0.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1E6\U0001F1FA 澳大利亚 01"
   type: anytls
-  server: cj7o1u.yytls.top
+  server: sy5vi1.yytls.top
   port: 27006
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: cj7o1u.yytls.top
+  sni: sy5vi1.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F9\U0001F1ED 泰国 01"
   type: anytls
-  server: s6lgd7.yytls.top
+  server: fyhluv.yytls.top
   port: 27007
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: s6lgd7.yytls.top
+  sni: fyhluv.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1E9\U0001F1EA 德国 01"
   type: anytls
-  server: vk7ulj.yytls.top
+  server: xybv8i.yytls.top
   port: 27010
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: vk7ulj.yytls.top
+  sni: xybv8i.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EB\U0001F1F7 法国 01"
   type: anytls
-  server: oaegij.yytls.top
+  server: lno168.yytls.top
   port: 27011
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: oaegij.yytls.top
+  sni: lno168.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EC\U0001F1E7 英国 01"
   type: anytls
-  server: qxmt51.yytls.top
+  server: rfixwu.yytls.top
   port: 27012
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: qxmt51.yytls.top
+  sni: rfixwu.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F2\U0001F1FE 马来西亚 01"
   type: anytls
-  server: duro6h.yytls.top
+  server: g0thpe.yytls.top
   port: 27014
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: duro6h.yytls.top
+  sni: g0thpe.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1FB\U0001F1F3 越南 01"
   type: anytls
-  server: hcot0v.yytls.top
+  server: vd33jr.yytls.top
   port: 27015
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: hcot0v.yytls.top
+  sni: vd33jr.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EE\U0001F1E9 印度尼西亚 01"
   type: anytls
-  server: dgbjl0.yytls.top
+  server: qsl8j5.yytls.top
   port: 27016
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: dgbjl0.yytls.top
+  sni: qsl8j5.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F3\U0001F1F1 荷兰 01"
   type: anytls
-  server: su980p.yytls.top
+  server: illtmi.yytls.top
   port: 27017
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: su980p.yytls.top
+  sni: illtmi.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F2\U0001F1F3 蒙古 01"
   type: anytls
-  server: ih4ek8.yytls.top
+  server: anxe1c.yytls.top
   port: 27018
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: ih4ek8.yytls.top
+  sni: anxe1c.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F2\U0001F1FD 墨西哥 01"
   type: anytls
-  server: jabiiv.yytls.top
+  server: hi7syy.yytls.top
   port: 27019
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: jabiiv.yytls.top
+  sni: hi7syy.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F5\U0001F1ED 菲律宾 01"
   type: anytls
-  server: hytgzq.yytls.top
+  server: j7sxpz.yytls.top
   port: 27020
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: hytgzq.yytls.top
+  sni: j7sxpz.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1E6\U0001F1F6 南极洲 01"
   type: anytls
-  server: tkigbh.yytls.top
+  server: eul0x9.yytls.top
   port: 27021
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: tkigbh.yytls.top
+  sni: eul0x9.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EE\U0001F1F3 印度 01"
   type: anytls
-  server: q34d8p.yytls.top
+  server: u5gj46.yytls.top
   port: 27022
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: q34d8p.yytls.top
+  sni: u5gj46.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EA\U0001F1EC 埃及 01"
   type: anytls
-  server: e91ako.yytls.top
+  server: eeusfh.yytls.top
   port: 27023
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: e91ako.yytls.top
+  sni: eeusfh.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EE\U0001F1F9 意大利 01"
   type: anytls
-  server: sg5rjh.yytls.top
+  server: vo5d49.yytls.top
   port: 27024
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: sg5rjh.yytls.top
+  sni: vo5d49.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F9\U0001F1F7 土耳其 01"
   type: anytls
-  server: h1ga1n.yytls.top
+  server: t6hiie.yytls.top
   port: 27025
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: h1ga1n.yytls.top
+  sni: t6hiie.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1E6\U0001F1F7 阿根廷 01"
   type: anytls
-  server: j829za.yytls.top
+  server: cwf4yv.yytls.top
   port: 27026
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: j829za.yytls.top
+  sni: cwf4yv.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F0\U0001F1ED 柬埔寨 01"
   type: anytls
-  server: aoqpuf.yytls.top
+  server: tfh9oj.yytls.top
   port: 27027
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: aoqpuf.yytls.top
+  sni: tfh9oj.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F1\U0001F1E6 老挝 01"
   type: anytls
-  server: s975fy.yytls.top
+  server: s467l2.yytls.top
   port: 27028
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: s975fy.yytls.top
+  sni: s467l2.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F2\U0001F1F2 缅甸 01"
   type: anytls
-  server: y9sq2o.yytls.top
+  server: x0po3i.yytls.top
   port: 27029
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: y9sq2o.yytls.top
+  sni: x0po3i.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1E7\U0001F1F3 文莱 01"
   type: anytls
-  server: jt9afy.yytls.top
+  server: pfy518.yytls.top
   port: 27030
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: jt9afy.yytls.top
+  sni: pfy518.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F3\U0001F1FF 新西兰 01"
   type: anytls
-  server: p2xdag.yytls.top
+  server: bkycx9.yytls.top
   port: 27031
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: p2xdag.yytls.top
+  sni: bkycx9.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F5\U0001F1F0 巴基斯坦 01"
   type: anytls
-  server: uhys4s.yytls.top
+  server: x0pt0e.yytls.top
   port: 27032
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: uhys4s.yytls.top
+  sni: x0pt0e.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1E9\U0001F1EA [直连] 德国 01 -0.1x"
   type: tuic
-  server: ehhlax.detuic.yydzx.xyz
-  port: 15519
+  server: pcxkm3.detuic.yydzx.xyz
+  port: 15352
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: ehhlax.detuic.yydzx.xyz
+  sni: pcxkm3.detuic.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -512,30 +512,30 @@ proxies:
   - h3
 - name: "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   type: hysteria2
-  server: jgbq6r.sghy2.yydzx.xyz
+  server: qt3tqp.sghy2.yydzx.xyz
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: jgbq6r.sghy2.yydzx.xyz
+  sni: qt3tqp.sghy2.yydzx.xyz
   skip-cert-verify: false
   ports: 16001-17000
   alpn:
   - h3
 - name: "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   type: anytls
-  server: snw0vl.jpanytls.yydzx.xyz
-  port: 14617
+  server: ttljqf.jpanytls.yydzx.xyz
+  port: 14960
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: snw0vl.jpanytls.yydzx.xyz
+  sni: ttljqf.jpanytls.yydzx.xyz
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EF\U0001F1F5 [直连] 日本 02 -0.1x"
   type: hysteria2
-  server: w1r29i.jphy2.yydzx.xyz
+  server: ulhy81.jphy2.yydzx.xyz
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: w1r29i.jphy2.yydzx.xyz
+  sni: ulhy81.jphy2.yydzx.xyz
   skip-cert-verify: false
   ports: 12001-13000
   alpn:
@@ -543,7 +543,7 @@ proxies:
 - name: "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
   type: vless
   server: usvless.yydzx.xyz
-  port: 17608
+  port: 17686
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   flow: xtls-rprx-vision
   udp: true
@@ -553,9 +553,9 @@ proxies:
   network: tcp
 - name: "\U0001F1FA\U0001F1F8 [直连] 美国 02 -0.1x"
   type: hysteria2
-  server: grq6oq.ushy2.yydzx.xyz
+  server: su2j9k.ushy2.yydzx.xyz
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: grq6oq.ushy2.yydzx.xyz
+  sni: su2j9k.ushy2.yydzx.xyz
   skip-cert-verify: false
   ports: 13001-14000
   alpn:
@@ -567,19 +567,19 @@ proxy-groups:
   - ♻️ 自动选择
   - "\U0001F3AF Direct"
   - "\U0001F1ED\U0001F1F0 香港 01"
-  - "\U0001F1ED\U0001F1F0 香港 02 -4x"
+  - "\U0001F1ED\U0001F1F0 香港 02"
   - "\U0001F1FA\U0001F1F8 美国 01"
-  - "\U0001F1FA\U0001F1F8 美国 02 -4x"
+  - "\U0001F1FA\U0001F1F8 美国 02"
   - "\U0001F1F8\U0001F1EC 新加坡 01"
-  - "\U0001F1F8\U0001F1EC 新加坡 02 -4x"
+  - "\U0001F1F8\U0001F1EC 新加坡 02"
   - "\U0001F1EF\U0001F1F5 日本 01"
-  - "\U0001F1EF\U0001F1F5 日本 02 -4x"
+  - "\U0001F1EF\U0001F1F5 日本 02"
   - "\U0001F1F9\U0001F1FC 台湾 01"
-  - "\U0001F1F9\U0001F1FC 台湾 02 -4x"
+  - "\U0001F1F9\U0001F1FC 台湾 02"
   - "\U0001F1F0\U0001F1F7 韩国 01"
-  - "\U0001F1F0\U0001F1F7 韩国 02 -4x"
+  - "\U0001F1F0\U0001F1F7 韩国 02"
   - "\U0001F1F2\U0001F1F4 澳门 01"
-  - "\U0001F1F2\U0001F1F4 澳门 02 -4x"
+  - "\U0001F1F2\U0001F1F4 澳门 02"
   - "\U0001F1E8\U0001F1E6 加拿大 01"
   - "\U0001F1E6\U0001F1FA 澳大利亚 01"
   - "\U0001F1F9\U0001F1ED 泰国 01"
@@ -617,19 +617,19 @@ proxy-groups:
   interval: 300
   proxies:
   - "\U0001F1ED\U0001F1F0 香港 01"
-  - "\U0001F1ED\U0001F1F0 香港 02 -4x"
+  - "\U0001F1ED\U0001F1F0 香港 02"
   - "\U0001F1FA\U0001F1F8 美国 01"
-  - "\U0001F1FA\U0001F1F8 美国 02 -4x"
+  - "\U0001F1FA\U0001F1F8 美国 02"
   - "\U0001F1F8\U0001F1EC 新加坡 01"
-  - "\U0001F1F8\U0001F1EC 新加坡 02 -4x"
+  - "\U0001F1F8\U0001F1EC 新加坡 02"
   - "\U0001F1EF\U0001F1F5 日本 01"
-  - "\U0001F1EF\U0001F1F5 日本 02 -4x"
+  - "\U0001F1EF\U0001F1F5 日本 02"
   - "\U0001F1F9\U0001F1FC 台湾 01"
-  - "\U0001F1F9\U0001F1FC 台湾 02 -4x"
+  - "\U0001F1F9\U0001F1FC 台湾 02"
   - "\U0001F1F0\U0001F1F7 韩国 01"
-  - "\U0001F1F0\U0001F1F7 韩国 02 -4x"
+  - "\U0001F1F0\U0001F1F7 韩国 02"
   - "\U0001F1F2\U0001F1F4 澳门 01"
-  - "\U0001F1F2\U0001F1F4 澳门 02 -4x"
+  - "\U0001F1F2\U0001F1F4 澳门 02"
   - "\U0001F1E8\U0001F1E6 加拿大 01"
   - "\U0001F1E6\U0001F1FA 澳大利亚 01"
   - "\U0001F1F9\U0001F1ED 泰国 01"
@@ -668,19 +668,19 @@ proxy-groups:
   - ♻️ 自动选择
   - "\U0001F3AF Direct"
   - "\U0001F1ED\U0001F1F0 香港 01"
-  - "\U0001F1ED\U0001F1F0 香港 02 -4x"
+  - "\U0001F1ED\U0001F1F0 香港 02"
   - "\U0001F1FA\U0001F1F8 美国 01"
-  - "\U0001F1FA\U0001F1F8 美国 02 -4x"
+  - "\U0001F1FA\U0001F1F8 美国 02"
   - "\U0001F1F8\U0001F1EC 新加坡 01"
-  - "\U0001F1F8\U0001F1EC 新加坡 02 -4x"
+  - "\U0001F1F8\U0001F1EC 新加坡 02"
   - "\U0001F1EF\U0001F1F5 日本 01"
-  - "\U0001F1EF\U0001F1F5 日本 02 -4x"
+  - "\U0001F1EF\U0001F1F5 日本 02"
   - "\U0001F1F9\U0001F1FC 台湾 01"
-  - "\U0001F1F9\U0001F1FC 台湾 02 -4x"
+  - "\U0001F1F9\U0001F1FC 台湾 02"
   - "\U0001F1F0\U0001F1F7 韩国 01"
-  - "\U0001F1F0\U0001F1F7 韩国 02 -4x"
+  - "\U0001F1F0\U0001F1F7 韩国 02"
   - "\U0001F1F2\U0001F1F4 澳门 01"
-  - "\U0001F1F2\U0001F1F4 澳门 02 -4x"
+  - "\U0001F1F2\U0001F1F4 澳门 02"
   - "\U0001F1E8\U0001F1E6 加拿大 01"
   - "\U0001F1E6\U0001F1FA 澳大利亚 01"
   - "\U0001F1F9\U0001F1ED 泰国 01"
@@ -719,19 +719,19 @@ proxy-groups:
   - ♻️ 自动选择
   - "\U0001F3AF Direct"
   - "\U0001F1ED\U0001F1F0 香港 01"
-  - "\U0001F1ED\U0001F1F0 香港 02 -4x"
+  - "\U0001F1ED\U0001F1F0 香港 02"
   - "\U0001F1FA\U0001F1F8 美国 01"
-  - "\U0001F1FA\U0001F1F8 美国 02 -4x"
+  - "\U0001F1FA\U0001F1F8 美国 02"
   - "\U0001F1F8\U0001F1EC 新加坡 01"
-  - "\U0001F1F8\U0001F1EC 新加坡 02 -4x"
+  - "\U0001F1F8\U0001F1EC 新加坡 02"
   - "\U0001F1EF\U0001F1F5 日本 01"
-  - "\U0001F1EF\U0001F1F5 日本 02 -4x"
+  - "\U0001F1EF\U0001F1F5 日本 02"
   - "\U0001F1F9\U0001F1FC 台湾 01"
-  - "\U0001F1F9\U0001F1FC 台湾 02 -4x"
+  - "\U0001F1F9\U0001F1FC 台湾 02"
   - "\U0001F1F0\U0001F1F7 韩国 01"
-  - "\U0001F1F0\U0001F1F7 韩国 02 -4x"
+  - "\U0001F1F0\U0001F1F7 韩国 02"
   - "\U0001F1F2\U0001F1F4 澳门 01"
-  - "\U0001F1F2\U0001F1F4 澳门 02 -4x"
+  - "\U0001F1F2\U0001F1F4 澳门 02"
   - "\U0001F1E8\U0001F1E6 加拿大 01"
   - "\U0001F1E6\U0001F1FA 澳大利亚 01"
   - "\U0001F1F9\U0001F1ED 泰国 01"
@@ -770,19 +770,19 @@ proxy-groups:
   - ♻️ 自动选择
   - "\U0001F3AF Direct"
   - "\U0001F1ED\U0001F1F0 香港 01"
-  - "\U0001F1ED\U0001F1F0 香港 02 -4x"
+  - "\U0001F1ED\U0001F1F0 香港 02"
   - "\U0001F1FA\U0001F1F8 美国 01"
-  - "\U0001F1FA\U0001F1F8 美国 02 -4x"
+  - "\U0001F1FA\U0001F1F8 美国 02"
   - "\U0001F1F8\U0001F1EC 新加坡 01"
-  - "\U0001F1F8\U0001F1EC 新加坡 02 -4x"
+  - "\U0001F1F8\U0001F1EC 新加坡 02"
   - "\U0001F1EF\U0001F1F5 日本 01"
-  - "\U0001F1EF\U0001F1F5 日本 02 -4x"
+  - "\U0001F1EF\U0001F1F5 日本 02"
   - "\U0001F1F9\U0001F1FC 台湾 01"
-  - "\U0001F1F9\U0001F1FC 台湾 02 -4x"
+  - "\U0001F1F9\U0001F1FC 台湾 02"
   - "\U0001F1F0\U0001F1F7 韩国 01"
-  - "\U0001F1F0\U0001F1F7 韩国 02 -4x"
+  - "\U0001F1F0\U0001F1F7 韩国 02"
   - "\U0001F1F2\U0001F1F4 澳门 01"
-  - "\U0001F1F2\U0001F1F4 澳门 02 -4x"
+  - "\U0001F1F2\U0001F1F4 澳门 02"
   - "\U0001F1E8\U0001F1E6 加拿大 01"
   - "\U0001F1E6\U0001F1FA 澳大利亚 01"
   - "\U0001F1F9\U0001F1ED 泰国 01"
@@ -821,19 +821,19 @@ proxy-groups:
   - ♻️ 自动选择
   - "\U0001F3AF Direct"
   - "\U0001F1ED\U0001F1F0 香港 01"
-  - "\U0001F1ED\U0001F1F0 香港 02 -4x"
+  - "\U0001F1ED\U0001F1F0 香港 02"
   - "\U0001F1FA\U0001F1F8 美国 01"
-  - "\U0001F1FA\U0001F1F8 美国 02 -4x"
+  - "\U0001F1FA\U0001F1F8 美国 02"
   - "\U0001F1F8\U0001F1EC 新加坡 01"
-  - "\U0001F1F8\U0001F1EC 新加坡 02 -4x"
+  - "\U0001F1F8\U0001F1EC 新加坡 02"
   - "\U0001F1EF\U0001F1F5 日本 01"
-  - "\U0001F1EF\U0001F1F5 日本 02 -4x"
+  - "\U0001F1EF\U0001F1F5 日本 02"
   - "\U0001F1F9\U0001F1FC 台湾 01"
-  - "\U0001F1F9\U0001F1FC 台湾 02 -4x"
+  - "\U0001F1F9\U0001F1FC 台湾 02"
   - "\U0001F1F0\U0001F1F7 韩国 01"
-  - "\U0001F1F0\U0001F1F7 韩国 02 -4x"
+  - "\U0001F1F0\U0001F1F7 韩国 02"
   - "\U0001F1F2\U0001F1F4 澳门 01"
-  - "\U0001F1F2\U0001F1F4 澳门 02 -4x"
+  - "\U0001F1F2\U0001F1F4 澳门 02"
   - "\U0001F1E8\U0001F1E6 加拿大 01"
   - "\U0001F1E6\U0001F1FA 澳大利亚 01"
   - "\U0001F1F9\U0001F1ED 泰国 01"
@@ -872,19 +872,19 @@ proxy-groups:
   - ♻️ 自动选择
   - "\U0001F3AF Direct"
   - "\U0001F1ED\U0001F1F0 香港 01"
-  - "\U0001F1ED\U0001F1F0 香港 02 -4x"
+  - "\U0001F1ED\U0001F1F0 香港 02"
   - "\U0001F1FA\U0001F1F8 美国 01"
-  - "\U0001F1FA\U0001F1F8 美国 02 -4x"
+  - "\U0001F1FA\U0001F1F8 美国 02"
   - "\U0001F1F8\U0001F1EC 新加坡 01"
-  - "\U0001F1F8\U0001F1EC 新加坡 02 -4x"
+  - "\U0001F1F8\U0001F1EC 新加坡 02"
   - "\U0001F1EF\U0001F1F5 日本 01"
-  - "\U0001F1EF\U0001F1F5 日本 02 -4x"
+  - "\U0001F1EF\U0001F1F5 日本 02"
   - "\U0001F1F9\U0001F1FC 台湾 01"
-  - "\U0001F1F9\U0001F1FC 台湾 02 -4x"
+  - "\U0001F1F9\U0001F1FC 台湾 02"
   - "\U0001F1F0\U0001F1F7 韩国 01"
-  - "\U0001F1F0\U0001F1F7 韩国 02 -4x"
+  - "\U0001F1F0\U0001F1F7 韩国 02"
   - "\U0001F1F2\U0001F1F4 澳门 01"
-  - "\U0001F1F2\U0001F1F4 澳门 02 -4x"
+  - "\U0001F1F2\U0001F1F4 澳门 02"
   - "\U0001F1E8\U0001F1E6 加拿大 01"
   - "\U0001F1E6\U0001F1FA 澳大利亚 01"
   - "\U0001F1F9\U0001F1ED 泰国 01"
@@ -923,19 +923,19 @@ proxy-groups:
   - ♻️ 自动选择
   - "\U0001F3AF Direct"
   - "\U0001F1ED\U0001F1F0 香港 01"
-  - "\U0001F1ED\U0001F1F0 香港 02 -4x"
+  - "\U0001F1ED\U0001F1F0 香港 02"
   - "\U0001F1FA\U0001F1F8 美国 01"
-  - "\U0001F1FA\U0001F1F8 美国 02 -4x"
+  - "\U0001F1FA\U0001F1F8 美国 02"
   - "\U0001F1F8\U0001F1EC 新加坡 01"
-  - "\U0001F1F8\U0001F1EC 新加坡 02 -4x"
+  - "\U0001F1F8\U0001F1EC 新加坡 02"
   - "\U0001F1EF\U0001F1F5 日本 01"
-  - "\U0001F1EF\U0001F1F5 日本 02 -4x"
+  - "\U0001F1EF\U0001F1F5 日本 02"
   - "\U0001F1F9\U0001F1FC 台湾 01"
-  - "\U0001F1F9\U0001F1FC 台湾 02 -4x"
+  - "\U0001F1F9\U0001F1FC 台湾 02"
   - "\U0001F1F0\U0001F1F7 韩国 01"
-  - "\U0001F1F0\U0001F1F7 韩国 02 -4x"
+  - "\U0001F1F0\U0001F1F7 韩国 02"
   - "\U0001F1F2\U0001F1F4 澳门 01"
-  - "\U0001F1F2\U0001F1F4 澳门 02 -4x"
+  - "\U0001F1F2\U0001F1F4 澳门 02"
   - "\U0001F1E8\U0001F1E6 加拿大 01"
   - "\U0001F1E6\U0001F1FA 澳大利亚 01"
   - "\U0001F1F9\U0001F1ED 泰国 01"
@@ -974,19 +974,19 @@ proxy-groups:
   - "\U0001F530 手动选择"
   - ♻️ 自动选择
   - "\U0001F1ED\U0001F1F0 香港 01"
-  - "\U0001F1ED\U0001F1F0 香港 02 -4x"
+  - "\U0001F1ED\U0001F1F0 香港 02"
   - "\U0001F1FA\U0001F1F8 美国 01"
-  - "\U0001F1FA\U0001F1F8 美国 02 -4x"
+  - "\U0001F1FA\U0001F1F8 美国 02"
   - "\U0001F1F8\U0001F1EC 新加坡 01"
-  - "\U0001F1F8\U0001F1EC 新加坡 02 -4x"
+  - "\U0001F1F8\U0001F1EC 新加坡 02"
   - "\U0001F1EF\U0001F1F5 日本 01"
-  - "\U0001F1EF\U0001F1F5 日本 02 -4x"
+  - "\U0001F1EF\U0001F1F5 日本 02"
   - "\U0001F1F9\U0001F1FC 台湾 01"
-  - "\U0001F1F9\U0001F1FC 台湾 02 -4x"
+  - "\U0001F1F9\U0001F1FC 台湾 02"
   - "\U0001F1F0\U0001F1F7 韩国 01"
-  - "\U0001F1F0\U0001F1F7 韩国 02 -4x"
+  - "\U0001F1F0\U0001F1F7 韩国 02"
   - "\U0001F1F2\U0001F1F4 澳门 01"
-  - "\U0001F1F2\U0001F1F4 澳门 02 -4x"
+  - "\U0001F1F2\U0001F1F4 澳门 02"
   - "\U0001F1E8\U0001F1E6 加拿大 01"
   - "\U0001F1E6\U0001F1FA 澳大利亚 01"
   - "\U0001F1F9\U0001F1ED 泰国 01"
@@ -1025,19 +1025,19 @@ proxy-groups:
   - ♻️ 自动选择
   - "\U0001F3AF Direct"
   - "\U0001F1ED\U0001F1F0 香港 01"
-  - "\U0001F1ED\U0001F1F0 香港 02 -4x"
+  - "\U0001F1ED\U0001F1F0 香港 02"
   - "\U0001F1FA\U0001F1F8 美国 01"
-  - "\U0001F1FA\U0001F1F8 美国 02 -4x"
+  - "\U0001F1FA\U0001F1F8 美国 02"
   - "\U0001F1F8\U0001F1EC 新加坡 01"
-  - "\U0001F1F8\U0001F1EC 新加坡 02 -4x"
+  - "\U0001F1F8\U0001F1EC 新加坡 02"
   - "\U0001F1EF\U0001F1F5 日本 01"
-  - "\U0001F1EF\U0001F1F5 日本 02 -4x"
+  - "\U0001F1EF\U0001F1F5 日本 02"
   - "\U0001F1F9\U0001F1FC 台湾 01"
-  - "\U0001F1F9\U0001F1FC 台湾 02 -4x"
+  - "\U0001F1F9\U0001F1FC 台湾 02"
   - "\U0001F1F0\U0001F1F7 韩国 01"
-  - "\U0001F1F0\U0001F1F7 韩国 02 -4x"
+  - "\U0001F1F0\U0001F1F7 韩国 02"
   - "\U0001F1F2\U0001F1F4 澳门 01"
-  - "\U0001F1F2\U0001F1F4 澳门 02 -4x"
+  - "\U0001F1F2\U0001F1F4 澳门 02"
   - "\U0001F1E8\U0001F1E6 加拿大 01"
   - "\U0001F1E6\U0001F1FA 澳大利亚 01"
   - "\U0001F1F9\U0001F1ED 泰国 01"
@@ -1080,19 +1080,19 @@ proxy-groups:
   - ♻️ 自动选择
   - "\U0001F3AF Direct"
   - "\U0001F1ED\U0001F1F0 香港 01"
-  - "\U0001F1ED\U0001F1F0 香港 02 -4x"
+  - "\U0001F1ED\U0001F1F0 香港 02"
   - "\U0001F1FA\U0001F1F8 美国 01"
-  - "\U0001F1FA\U0001F1F8 美国 02 -4x"
+  - "\U0001F1FA\U0001F1F8 美国 02"
   - "\U0001F1F8\U0001F1EC 新加坡 01"
-  - "\U0001F1F8\U0001F1EC 新加坡 02 -4x"
+  - "\U0001F1F8\U0001F1EC 新加坡 02"
   - "\U0001F1EF\U0001F1F5 日本 01"
-  - "\U0001F1EF\U0001F1F5 日本 02 -4x"
+  - "\U0001F1EF\U0001F1F5 日本 02"
   - "\U0001F1F9\U0001F1FC 台湾 01"
-  - "\U0001F1F9\U0001F1FC 台湾 02 -4x"
+  - "\U0001F1F9\U0001F1FC 台湾 02"
   - "\U0001F1F0\U0001F1F7 韩国 01"
-  - "\U0001F1F0\U0001F1F7 韩国 02 -4x"
+  - "\U0001F1F0\U0001F1F7 韩国 02"
   - "\U0001F1F2\U0001F1F4 澳门 01"
-  - "\U0001F1F2\U0001F1F4 澳门 02 -4x"
+  - "\U0001F1F2\U0001F1F4 澳门 02"
   - "\U0001F1E8\U0001F1E6 加拿大 01"
   - "\U0001F1E6\U0001F1FA 澳大利亚 01"
   - "\U0001F1F9\U0001F1ED 泰国 01"
