@@ -8,7 +8,7 @@ log-level: error
 tcp-concurrent: true
 external-controller: 0.0.0.0:9091
 dns:
-  enable: false
+  enable: true
   ipv6: false
   default-nameserver:
   - 223.5.5.5
@@ -32,23 +32,23 @@ dns:
 proxies:
 - name: "\U0001F1ED\U0001F1F0 香港 01"
   type: anytls
-  server: dckguu.yytls.top
+  server: kl6n43.yytls.top
   port: 27002
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: dckguu.yytls.top
+  sni: kl6n43.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1ED\U0001F1F0 香港 02"
   type: tuic
-  server: n5y0ty.yydzx.xyz
-  port: 12227
+  server: xl9ako.yydzx.xyz
+  port: 12776
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: n5y0ty.yydzx.xyz
+  sni: xl9ako.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -56,23 +56,23 @@ proxies:
   - h3
 - name: "\U0001F1FA\U0001F1F8 美国 01"
   type: anytls
-  server: arcpsw.yytls.top
+  server: a3yc53.yytls.top
   port: 27001
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: arcpsw.yytls.top
+  sni: a3yc53.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1FA\U0001F1F8 美国 02"
   type: tuic
-  server: a4sgvm.yydzx.xyz
-  port: 11907
+  server: wuunkx.yydzx.xyz
+  port: 11151
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: a4sgvm.yydzx.xyz
+  sni: wuunkx.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -80,23 +80,23 @@ proxies:
   - h3
 - name: "\U0001F1F8\U0001F1EC 新加坡 01"
   type: anytls
-  server: al03ve.yytls.top
+  server: qnselh.yytls.top
   port: 27003
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: al03ve.yytls.top
+  sni: qnselh.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F8\U0001F1EC 新加坡 02"
   type: tuic
-  server: rl1390.yydzx.xyz
-  port: 13589
+  server: czzbjw.yydzx.xyz
+  port: 13548
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: rl1390.yydzx.xyz
+  sni: czzbjw.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -104,23 +104,23 @@ proxies:
   - h3
 - name: "\U0001F1EF\U0001F1F5 日本 01"
   type: anytls
-  server: tx61j6.yytls.top
+  server: afhwi7.yytls.top
   port: 27004
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: tx61j6.yytls.top
+  sni: afhwi7.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EF\U0001F1F5 日本 02"
   type: tuic
-  server: q2uliz.yydzx.xyz
-  port: 14495
+  server: aqlzs1.yydzx.xyz
+  port: 14752
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: q2uliz.yydzx.xyz
+  sni: aqlzs1.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -128,23 +128,23 @@ proxies:
   - h3
 - name: "\U0001F1F9\U0001F1FC 台湾 01"
   type: anytls
-  server: sod1e9.yytls.top
+  server: qztlu1.yytls.top
   port: 27005
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: sod1e9.yytls.top
+  sni: qztlu1.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F9\U0001F1FC 台湾 02"
   type: tuic
-  server: ptmu9r.yydzx.xyz
-  port: 15124
+  server: iakh9p.yydzx.xyz
+  port: 15781
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: ptmu9r.yydzx.xyz
+  sni: iakh9p.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -152,23 +152,23 @@ proxies:
   - h3
 - name: "\U0001F1F0\U0001F1F7 韩国 01"
   type: anytls
-  server: cvijj7.yytls.top
+  server: ip29dr.yytls.top
   port: 27008
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: cvijj7.yytls.top
+  sni: ip29dr.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F0\U0001F1F7 韩国 02"
   type: tuic
-  server: pnp70p.yydzx.xyz
-  port: 16445
+  server: vo7382.yydzx.xyz
+  port: 16910
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: pnp70p.yydzx.xyz
+  sni: vo7382.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -176,23 +176,23 @@ proxies:
   - h3
 - name: "\U0001F1F2\U0001F1F4 澳门 01"
   type: anytls
-  server: sjzwnu.yytls.top
+  server: rlfixq.yytls.top
   port: 27013
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: sjzwnu.yytls.top
+  sni: rlfixq.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F2\U0001F1F4 澳门 02"
   type: tuic
-  server: n2czst.yydzx.xyz
-  port: 17985
+  server: si3i14.yydzx.xyz
+  port: 17701
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: n2czst.yydzx.xyz
+  sni: si3i14.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -200,311 +200,311 @@ proxies:
   - h3
 - name: "\U0001F1E8\U0001F1E6 加拿大 01"
   type: anytls
-  server: i0nuaw.yytls.top
+  server: vd4ndo.yytls.top
   port: 27009
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: i0nuaw.yytls.top
+  sni: vd4ndo.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1E6\U0001F1FA 澳大利亚 01"
   type: anytls
-  server: mcbbt7.yytls.top
+  server: asdv1j.yytls.top
   port: 27006
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: mcbbt7.yytls.top
+  sni: asdv1j.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F9\U0001F1ED 泰国 01"
   type: anytls
-  server: pcnhf2.yytls.top
+  server: q46qyb.yytls.top
   port: 27007
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: pcnhf2.yytls.top
+  sni: q46qyb.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1E9\U0001F1EA 德国 01"
   type: anytls
-  server: w91lcv.yytls.top
+  server: qoqr5v.yytls.top
   port: 27010
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: w91lcv.yytls.top
+  sni: qoqr5v.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EB\U0001F1F7 法国 01"
   type: anytls
-  server: ynz5df.yytls.top
+  server: d7cbql.yytls.top
   port: 27011
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: ynz5df.yytls.top
+  sni: d7cbql.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EC\U0001F1E7 英国 01"
   type: anytls
-  server: lf02sc.yytls.top
+  server: npmw89.yytls.top
   port: 27012
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: lf02sc.yytls.top
+  sni: npmw89.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F2\U0001F1FE 马来西亚 01"
   type: anytls
-  server: iuzslq.yytls.top
+  server: sq8u44.yytls.top
   port: 27014
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: iuzslq.yytls.top
+  sni: sq8u44.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1FB\U0001F1F3 越南 01"
   type: anytls
-  server: jbd2h4.yytls.top
+  server: eacw81.yytls.top
   port: 27015
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: jbd2h4.yytls.top
+  sni: eacw81.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EE\U0001F1E9 印度尼西亚 01"
   type: anytls
-  server: h9uocu.yytls.top
+  server: sn9o9a.yytls.top
   port: 27016
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: h9uocu.yytls.top
+  sni: sn9o9a.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F3\U0001F1F1 荷兰 01"
   type: anytls
-  server: y35b0h.yytls.top
+  server: dd02c2.yytls.top
   port: 27017
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: y35b0h.yytls.top
+  sni: dd02c2.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F2\U0001F1F3 蒙古 01"
   type: anytls
-  server: tet9go.yytls.top
+  server: l779p7.yytls.top
   port: 27018
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: tet9go.yytls.top
+  sni: l779p7.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F2\U0001F1FD 墨西哥 01"
   type: anytls
-  server: c02z4o.yytls.top
+  server: iv2qwm.yytls.top
   port: 27019
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: c02z4o.yytls.top
+  sni: iv2qwm.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F5\U0001F1ED 菲律宾 01"
   type: anytls
-  server: vszx7h.yytls.top
+  server: l7l2d2.yytls.top
   port: 27020
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: vszx7h.yytls.top
+  sni: l7l2d2.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1E6\U0001F1F6 南极洲 01"
   type: anytls
-  server: tge103.yytls.top
+  server: lgzus8.yytls.top
   port: 27021
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: tge103.yytls.top
+  sni: lgzus8.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EE\U0001F1F3 印度 01"
   type: anytls
-  server: pru82p.yytls.top
+  server: h3bame.yytls.top
   port: 27022
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: pru82p.yytls.top
+  sni: h3bame.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EA\U0001F1EC 埃及 01"
   type: anytls
-  server: i2yv3f.yytls.top
+  server: t65aol.yytls.top
   port: 27023
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: i2yv3f.yytls.top
+  sni: t65aol.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EE\U0001F1F9 意大利 01"
   type: anytls
-  server: rc8ndh.yytls.top
+  server: nji1bs.yytls.top
   port: 27024
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: rc8ndh.yytls.top
+  sni: nji1bs.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F9\U0001F1F7 土耳其 01"
   type: anytls
-  server: y9v8n1.yytls.top
+  server: mly8so.yytls.top
   port: 27025
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: y9v8n1.yytls.top
+  sni: mly8so.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1E6\U0001F1F7 阿根廷 01"
   type: anytls
-  server: ow3w20.yytls.top
+  server: lqqy54.yytls.top
   port: 27026
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: ow3w20.yytls.top
+  sni: lqqy54.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F0\U0001F1ED 柬埔寨 01"
   type: anytls
-  server: g8lwzc.yytls.top
+  server: e1o2rf.yytls.top
   port: 27027
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: g8lwzc.yytls.top
+  sni: e1o2rf.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F1\U0001F1E6 老挝 01"
   type: anytls
-  server: yzbhoi.yytls.top
+  server: s8pjcd.yytls.top
   port: 27028
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: yzbhoi.yytls.top
+  sni: s8pjcd.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F2\U0001F1F2 缅甸 01"
   type: anytls
-  server: vr57ai.yytls.top
+  server: g732fb.yytls.top
   port: 27029
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: vr57ai.yytls.top
+  sni: g732fb.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1E7\U0001F1F3 文莱 01"
   type: anytls
-  server: gcqf0c.yytls.top
+  server: q6slix.yytls.top
   port: 27030
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: gcqf0c.yytls.top
+  sni: q6slix.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F3\U0001F1FF 新西兰 01"
   type: anytls
-  server: bzjymf.yytls.top
+  server: mnrur8.yytls.top
   port: 27031
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: bzjymf.yytls.top
+  sni: mnrur8.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1F5\U0001F1F0 巴基斯坦 01"
   type: anytls
-  server: jakim5.yytls.top
+  server: zu3inc.yytls.top
   port: 27032
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: jakim5.yytls.top
+  sni: zu3inc.yytls.top
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1E9\U0001F1EA [直连] 德国 01 -0.1x"
   type: tuic
-  server: sagrh2.detuic.yydzx.xyz
-  port: 15113
+  server: r2cte9.detuic.yydzx.xyz
+  port: 15117
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: sagrh2.detuic.yydzx.xyz
+  sni: r2cte9.detuic.yydzx.xyz
   disable-sni: false
   congestion-controller: bbr
   reduce-rtt: false
@@ -512,30 +512,30 @@ proxies:
   - h3
 - name: "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   type: hysteria2
-  server: uvvtpo.sghy2.yydzx.xyz
+  server: rcyfkf.sghy2.yydzx.xyz
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: uvvtpo.sghy2.yydzx.xyz
+  sni: rcyfkf.sghy2.yydzx.xyz
   skip-cert-verify: false
   ports: 16001-17000
   alpn:
   - h3
 - name: "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   type: anytls
-  server: e1t0p0.jpanytls.yydzx.xyz
-  port: 14151
+  server: an071b.jpanytls.yydzx.xyz
+  port: 14560
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   client-fingerprint: chrome
   udp: true
-  sni: e1t0p0.jpanytls.yydzx.xyz
+  sni: an071b.jpanytls.yydzx.xyz
   alpn:
   - h2
   - http/1.1
   skip-cert-verify: false
 - name: "\U0001F1EF\U0001F1F5 [直连] 日本 02 -0.1x"
   type: hysteria2
-  server: g17fyj.jphy2.yydzx.xyz
+  server: mu849s.jphy2.yydzx.xyz
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: g17fyj.jphy2.yydzx.xyz
+  sni: mu849s.jphy2.yydzx.xyz
   skip-cert-verify: false
   ports: 12001-13000
   alpn:
@@ -543,7 +543,7 @@ proxies:
 - name: "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
   type: vless
   server: usvless.yydzx.xyz
-  port: 17654
+  port: 17332
   uuid: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
   flow: xtls-rprx-vision
   udp: true
@@ -553,9 +553,9 @@ proxies:
   network: tcp
 - name: "\U0001F1FA\U0001F1F8 [直连] 美国 02 -0.1x"
   type: hysteria2
-  server: boifjs.ushy2.yydzx.xyz
+  server: xrlbh7.ushy2.yydzx.xyz
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: boifjs.ushy2.yydzx.xyz
+  sni: xrlbh7.ushy2.yydzx.xyz
   skip-cert-verify: false
   ports: 13001-14000
   alpn:
