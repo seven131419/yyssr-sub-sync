@@ -16,29 +16,38 @@ dns:
 proxies:
 - name: "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   type: hysteria2
-  server: ve4tjk.sghy2.yydzx.xyz
+  server: k2tr1d.sghy2.yydzx.xyz
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: ve4tjk.sghy2.yydzx.xyz
+  sni: k2tr1d.sghy2.yydzx.xyz
   skip-cert-verify: false
   ports: 16001-17000
   alpn:
   - h3
 - name: "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   type: hysteria2
-  server: k89ccg.jphy2.yydzx.xyz
+  server: f1mu2h.jphy2.yydzx.xyz
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: k89ccg.jphy2.yydzx.xyz
+  sni: f1mu2h.jphy2.yydzx.xyz
   skip-cert-verify: false
   ports: 15001-16000
   alpn:
   - h3
 - name: "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
   type: hysteria2
-  server: trk4pm.ushy2.yydzx.xyz
+  server: vx3yju.ushy2.yydzx.xyz
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: trk4pm.ushy2.yydzx.xyz
+  sni: vx3yju.ushy2.yydzx.xyz
   skip-cert-verify: false
   ports: 18001-19000
+  alpn:
+  - h3
+- name: "\U0001F1ED\U0001F1F0 [直连] 香港 01 -0.1x"
+  type: hysteria2
+  server: s1gqqy.hkhy2.yydzx.xyz
+  password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
+  sni: s1gqqy.hkhy2.yydzx.xyz
+  skip-cert-verify: false
+  port: 1702
   alpn:
   - h3
 proxy-groups:
@@ -50,6 +59,7 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   - "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   - "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
+  - "\U0001F1ED\U0001F1F0 [直连] 香港 01 -0.1x"
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
@@ -58,6 +68,7 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   - "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   - "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
+  - "\U0001F1ED\U0001F1F0 [直连] 香港 01 -0.1x"
 - name: "\U0001F3AC Netflix"
   type: select
   proxies:
@@ -67,6 +78,7 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   - "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   - "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
+  - "\U0001F1ED\U0001F1F0 [直连] 香港 01 -0.1x"
 - name: "\U0001F3AC DisneyPlus"
   type: select
   proxies:
@@ -76,6 +88,7 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   - "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   - "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
+  - "\U0001F1ED\U0001F1F0 [直连] 香港 01 -0.1x"
 - name: "\U0001F3AC HBO"
   type: select
   proxies:
@@ -85,6 +98,7 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   - "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   - "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
+  - "\U0001F1ED\U0001F1F0 [直连] 香港 01 -0.1x"
 - name: "\U0001F4FA YouTube"
   type: select
   proxies:
@@ -94,6 +108,7 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   - "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   - "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
+  - "\U0001F1ED\U0001F1F0 [直连] 香港 01 -0.1x"
 - name: "\U0001F916 OpenAI"
   type: select
   proxies:
@@ -103,6 +118,7 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   - "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   - "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
+  - "\U0001F1ED\U0001F1F0 [直连] 香港 01 -0.1x"
 - name: "\U0001F3AC Emby"
   type: select
   proxies:
@@ -112,6 +128,7 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   - "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   - "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
+  - "\U0001F1ED\U0001F1F0 [直连] 香港 01 -0.1x"
 - name: "\U0001F34E Apple"
   type: select
   proxies:
@@ -121,6 +138,7 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   - "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   - "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
+  - "\U0001F1ED\U0001F1F0 [直连] 香港 01 -0.1x"
 - name: ☁️ Cloudflare IP
   type: select
   proxies:
@@ -130,6 +148,7 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   - "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   - "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
+  - "\U0001F1ED\U0001F1F0 [直连] 香港 01 -0.1x"
 - name: "\U0001F3AF Direct"
   type: select
   proxies:
@@ -143,6 +162,7 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   - "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   - "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
+  - "\U0001F1ED\U0001F1F0 [直连] 香港 01 -0.1x"
 rules:
 - "DOMAIN,link00.yyssr.org,🎯 Direct"
 - "IP-CIDR,127.0.0.0/8,\U0001F3AF Direct"
