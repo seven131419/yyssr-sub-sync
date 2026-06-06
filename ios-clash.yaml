@@ -16,36 +16,36 @@ dns:
 proxies:
 - name: "\U0001F1F8\U0001F1EC [直连] 新加坡 01 -0.1x"
   type: hysteria2
-  server: ybwhep.sghy2.yydzx.xyz
+  server: zpu0ad.sghy2.yydzx.xyz
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: ybwhep.sghy2.yydzx.xyz
+  sni: zpu0ad.sghy2.yydzx.xyz
   skip-cert-verify: false
   ports: 16001-17000
   alpn:
   - h3
 - name: "\U0001F1EF\U0001F1F5 [直连] 日本 01 -0.1x"
   type: hysteria2
-  server: gusobn.jphy2.yydzx.xyz
+  server: ognw38.jphy2.yydzx.xyz
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: gusobn.jphy2.yydzx.xyz
+  sni: ognw38.jphy2.yydzx.xyz
   skip-cert-verify: false
   ports: 15001-16000
   alpn:
   - h3
 - name: "\U0001F1FA\U0001F1F8 [直连] 美国 01 -0.1x"
   type: hysteria2
-  server: qyip4a.ushy2.yydzx.xyz
+  server: brbfkm.ushy2.yydzx.xyz
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: qyip4a.ushy2.yydzx.xyz
+  sni: brbfkm.ushy2.yydzx.xyz
   skip-cert-verify: false
   ports: 18001-19000
   alpn:
   - h3
 - name: "\U0001F1ED\U0001F1F0 [直连] 香港 01 -0.1x"
   type: hysteria2
-  server: fvriqi.hkhy2.yydzx.xyz
+  server: zpca1c.hkhy2.yydzx.xyz
   password: ca2df3a5-0978-4e2c-b2c1-e08f99f69031
-  sni: fvriqi.hkhy2.yydzx.xyz
+  sni: zpca1c.hkhy2.yydzx.xyz
   skip-cert-verify: false
   ports: 17001-18000
   alpn:
@@ -3281,7 +3281,6 @@ rules:
 - "DOMAIN-SUFFIX,pacom.mil,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,pacopacomama.com,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,page.link,\U0001F9F1 GFW 列表"
-- "DOMAIN-SUFFIX,pages.dev,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,paimon.moe,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,pancakeswap.finance,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,pandafan.pub,\U0001F9F1 GFW 列表"
@@ -3894,6 +3893,7 @@ rules:
 - "DOMAIN-SUFFIX,surfeasy.com.au,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,surfshark.com,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,surrenderat20.net,\U0001F9F1 GFW 列表"
+- "DOMAIN-SUFFIX,suyingtv.com,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,swagbucks.com,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,swapspace.co,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,swissinfo.ch,\U0001F9F1 GFW 列表"
@@ -4577,6 +4577,7 @@ rules:
 - "DOMAIN-SUFFIX,wowporn.com,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,woyaolian.org,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,wp.com,\U0001F9F1 GFW 列表"
+- "DOMAIN-SUFFIX,wplace.live,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,wpoforum.com,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,writesonic.com,\U0001F9F1 GFW 列表"
 - "DOMAIN-SUFFIX,wsj.com,\U0001F9F1 GFW 列表"
